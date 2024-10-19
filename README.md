@@ -3,7 +3,10 @@ Your one-stop place to real all the latest articles regarding top-headlines, app
 
 This website fetch data from [NewsAPI.org](https://newsapi.org/) and sometime data may not display due to max request reached limit.
 
+Other Pages will not load due to free plan, but I have added a mock data.
+If you want you add your API key and edit the env file.
+
 Created by [@harshcsrivastava](https://github.com/harshcsrivastava) 
 
 ## Live Link
-[Kaltak News](https://github.com/harshcsrivastava) 
+[Kaltak News](https://kaltak-news.vercel.app) 
