@@ -13,7 +13,7 @@ function Header() {
                     <img src={kaltakLogo} alt="kaltak-logo" />
                   </Link>
                   <div>
-                    <ul className='flex gap-8 '>
+                    <ul className='flex gap-2 lg:gap-8 '>
                       <li>
                         <NavLink
                           to = "/"
