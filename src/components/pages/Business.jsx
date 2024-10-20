@@ -13,8 +13,9 @@ function Business() {
   }, []);
   
 
-  return (data.length == 0)? (<h1 className="text-xl font-bold flex justify-center items-center my-8">Loading....</h1>) : (<div className="w-full p-4 flex gap-4 flex-col lg:flex-row flex-wrap justify-center">
-    {data.articles.map((data) => (
+  return (data?.length == 0 || data == undefined)? (<h1 className="text-xl font-bold flex justify-center items-center my-8">Loading....
+  If it takes longer then API Error</h1>)  : (<div className="w-full p-4 flex gap-4 flex-col lg:flex-row flex-wrap justify-center">
+    {data?.articles?.map((data) => (
         <Card
           title={data.title}
           imageURL={data.urlToImage}

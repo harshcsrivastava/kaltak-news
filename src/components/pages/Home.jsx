@@ -23,7 +23,7 @@ function Home() {
       title = "Shraddha Kapoor: The Journey of a Versatile Star"
       description="Shraddha Kapoor is a popular Bollywood actress known for her versatile roles and captivating performances in films like Chhichhore and Stree."
       source="ChatGPT"/>
-      {data[0].articles.map((data) => (
+      {data[0].articles?.map((data) => (
           <Card
             title={data.title}
             imageURL={data.urlToImage}
